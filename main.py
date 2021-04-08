@@ -14,7 +14,7 @@ class Member:
         self.MonthsOfService = MonthsOfService
         self.club = club
 
-
+## ADD Members ##
 Member1 = Member("Coach", 50, "David", 12, "Liverpool")
 Member2 = Member("Player", 22, "Roger", 26,"Liverpool")
 Member3 = Member("Player", 22, "Messi", 14, "Manchester")
@@ -33,3 +33,6 @@ Member14 = Member("Player", 22, "Fluff", 24, "Chelsea")
 print(Member1.MemberType, ":", Member1.Name, ":", Member1.club)
 
 print(Member2.MemberType, ":", Member2.Name, ":", Member2.club)
+
+## Remove Members ##
+del Member13
